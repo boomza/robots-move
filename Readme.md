@@ -1,6 +1,7 @@
 # Mouse Move
 
 This is a sample project for learning purposes. 😅
+Definety not intended to show yourself online on teams or slack like you are away.
 
 ## Installation
 
