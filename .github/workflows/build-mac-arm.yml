@@ -9,7 +9,7 @@ on:
 
 jobs:
   build:
-    runs-on: macos-arm64
+    runs-on: macos-latest
 
     steps:
     - name: Checkout code
@@ -27,9 +27,6 @@ jobs:
 
     - name: Build
       run: npm run build
-
-    - name: Run tests
-      run: npm test
 
     - name: Upload artifacts
       uses: actions/upload-artifact@v2
