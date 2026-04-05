@@ -1,0 +1,1 @@
+var o=require("@hurdlegroup/robotjs");o.setMouseDelay(100);var r=o.getScreenSize(),a=r.height,h=r.width;for(;;){let e=i();o.moveMouseSmooth(e.x,e.y)}function i(){var e=Math.floor(Math.random()*h),t=Math.floor(Math.random()*a);return{x:e,y:t}}

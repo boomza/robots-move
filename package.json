@@ -2,10 +2,10 @@
   "name": "r",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "random.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "esbuild random.js --bundle --outfile=dist/bundle.js --platform=node --minify"
+    "build": "esbuild random.js --bundle --outfile=dist/bundle.js --platform=node --minify --external:@hurdlegroup/robotjs",
+    "start": "node dist/bundle.js"
   },
   "keywords": [],
   "author": "",
