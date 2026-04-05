@@ -1,7 +1,7 @@
 var robot = require("@hurdlegroup/robotjs");
 
 // Speed up the mouse.
-robot.setMouseDelay(100);
+robot.setMouseDelay(10000);
 
 var screenSize = robot.getScreenSize();
 var height = screenSize.height;
